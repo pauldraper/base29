@@ -25,4 +25,4 @@ if __name__ == "__main__":
 
     for _ in range(10):
         number = random.randint(0, 2 ** 64 - 1)
-        print("{:020d}\t{:0>14}".format(number, encode_number(number)))
+        print("{:0>20}\t{:2>14}".format(number, encode_number(number)))
